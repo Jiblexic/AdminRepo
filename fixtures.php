@@ -99,17 +99,17 @@
 						}
                         ?>
 					<div class="row">
-                        <div class="col-md-2">
+                        <div class="col-md-3">
 							<div class="info-box bg-green">
 								<a href="fixtures.php"><span class="info-box-icon" style="font-size: 30px; width:  100%; color: #fff">All</span></a>
 							</div>
 						</div>
-						<div class="col-md-2">
+						<div class="col-md-3">
 							<div class="info-box bg-red">
 								<a href="fixtures.php?team=1"><span class="info-box-icon" style="font-size: 30px; width:  100%; color: #fff">1st's</span></a>
 							</div>
 						</div>
-						<div class="col-md-2">
+						<div class="col-md-3">
 							<div class="info-box bg-blue">
 								<a href="fixtures.php?team=2"><span class="info-box-icon" style="font-size: 30px; width:  100%; color: #fff">2nd's</span></a>
 							</div>

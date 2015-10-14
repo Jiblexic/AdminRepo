@@ -101,7 +101,7 @@ class League
         return false;
     }
 
-    // UPDATE OPPONENT
+    // UPDATE Location
     public function updateLocation($fields = array(), $id)
     {
         if(!$this->_db->update('location', $fields, 'LocationId = ' . $id))
@@ -110,7 +110,7 @@ class League
         }
     }
 
-    // DELETE OPPONENT
+    // DELETE Location
     public function deleteLocation($locationId)
     {
         $where =  array('LocationId', '=', $locationId);
@@ -133,6 +133,25 @@ class League
         return false;
     }
 
+    // CREATE OPPONENT
+    public function createCompetition($fields)
+    {
+        if(!$this->_db->insert('competitions', $fields))
+        {
+            throw new Exception('Error creating competition');
+        }
+    }
+
+    // DELETE OPPONENT
+    public function deleteCompetition($competitionId)
+    {
+        $where =  array('CompetitionId', '=', $competitionId);
+
+        if(!$this->_db->delete('competitions', $where))
+        {
+            throw new Exception('Error deleting Competition');
+        }
+    }
 
 }
 

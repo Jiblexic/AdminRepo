@@ -83,7 +83,7 @@
 				<ul class="treeview-menu">
 					<li><a href="opponents.php"><i class="fa fa-circle-o"></i>Opponents</a></li>
 					<li><a href="locations.php"><i class="fa fa-circle-o"></i>Locations</a></li>
-                    <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>Competitions</a></li>
+                    			<li><a href="competitions.php"><i class="fa fa-circle-o"></i>Competitions</a></li>
 				</ul>
 			</li>
             <li class="treeview">
@@ -94,15 +94,15 @@
 				</a>
 				<ul class="treeview-menu">
 					<li><a href="opponents.php"><i class="fa fa-circle-o"></i>Opponents</a></li>
-					<li><a href="locations.php"><i class="fa fa-circle-o"></i>Locations</a></li>
-                    <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>Competitions</a></li>
+					<li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>Locations</a></li>
+                    			<li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>Competitions</a></li>
 				</ul>
 			</li>
 			</li>
 			<li class="header">User Control</li>
-			<li><a href="manage.php"><i class="fa fa-circle-o text-yellow"></i> <span>Manager Users</span></a></li>
-			<li><a href="update.php"><i class="fa fa-circle-o text-aqua"></i> <span>Update Account</span></a></li>
-			<li><a href="logout.php"><i class="fa fa-circle-o text-red"></i> <span>Logout</span></a></li>
+				<li><a href="manage.php"><i class="fa fa-circle-o text-yellow"></i> <span>Manager Users</span></a></li>
+				<li><a href="update.php"><i class="fa fa-circle-o text-aqua"></i> <span>Update Account</span></a></li>
+				<li><a href="logout.php"><i class="fa fa-circle-o text-red"></i> <span>Logout</span></a></li>
 		</ul>
 	</section>
 	<!-- /.sidebar -->

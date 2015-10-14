@@ -2,13 +2,14 @@
     
 // Start Session
 session_start();
+ini_set('display_errors', '1');
 
 // CONFIG
 $GLOBALS['configs'] = array(
     'mysql' => array(
-        'host' => '127.0.0.1',
-        'username' => 'root',
-        'password' => '',
+        'host' => 'localhost',
+        'username' => 'cherries',
+        'password' => 'Hello123!',
         'db' => 'cherries'
     ),
     'remember' => array(
